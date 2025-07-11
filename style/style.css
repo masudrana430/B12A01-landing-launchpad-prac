@@ -14,7 +14,10 @@
 }
 
 .headerPrimColor {
-    color: #4E47FF;
+    background: linear-gradient(90deg, #9403FD 0%, #00ADFE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* vai ei style ami nij theke korsi chrome mn gpt er help neye !asa kori apnader problem hobe na */
 }
 
 .uniBlackBoldColor {
@@ -71,7 +74,7 @@ header nav {
 }
 
 .signup-btn {
-    background-color: #4E47FF;
+    background: linear-gradient(90deg, #9403FD 0%, #00ADFE 100%);
     color: white;
     width: 132px;
     height: 48px;
@@ -87,7 +90,8 @@ header nav {
 
 .signup-btn:hover {
     color: #252432;
-    background-color: #FFD700;
+    background: #FFD700;
+
     transform: translateY(-2px);
 }
 
@@ -108,7 +112,8 @@ header nav {
 
 
 .focus-btn {
-    background-color: #4E47FF;
+    background: linear-gradient(90deg, #9403FD 0%, #00ADFE 100%);
+    font-family: 'Raleway', sans-serif;
     color: white;
     width: 174px;
     height: 48px;
@@ -120,13 +125,14 @@ header nav {
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    font-weight: 500;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
+
 .focus-btn:hover {
     color: #252432;
-    background-color: #FFD700;
+    background: #FFD700;
+    /* background-color: #FFD700; */
     transform: translateY(-2px);
 }
 
@@ -167,7 +173,7 @@ header nav {
 }
 
 .text-column .cta-btn {
-    background-color: #4E47FF;
+    background: linear-gradient(90deg, #9403FD 0%, #00ADFE 100%);
     color: white;
     padding: 12px 24px;
     /* padding: 12px 36px;  */
@@ -184,7 +190,7 @@ header nav {
 
 .text-column .cta-btn:hover {
     color: #252432;
-    background-color: #FFD700;
+    background: #FFD700;
     transform: translateY(-2px);
 }
 
@@ -443,7 +449,7 @@ main section {
 }
 
 .contact-form button {
-    background-color: rgba(78, 71, 255, 1);
+    background: linear-gradient(90deg, #9403FD 0%, #00ADFE 100%);
     color: white;
     padding: 14px;
     font-family: 'Raleway', sans-serif;
@@ -459,7 +465,7 @@ main section {
 
 .contact-form button:hover {
     color: #252432;
-    background-color: #FFD700;
+    background: #FFD700;
     transform: translateY(-2px);
 }
 

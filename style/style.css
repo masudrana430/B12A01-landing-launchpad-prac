@@ -52,7 +52,7 @@ header nav {
     justify-content: space-between;
     width: 1140px;
     height: 151px;
-    position: fixed;
+    position: sticky;
     top: 0;
 
     margin: 0px 150px;
